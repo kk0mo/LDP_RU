@@ -1,8 +1,10 @@
-The results presented below compare our specific algorithm with algorithm proposed in [Tao (2022)](https://proceedings.mlr.press/v151/tao22a.html), namely `LDPRSE`. These comparisons were made in an online MABs setting under weak corruption conditions. The findings are organized into two columns, demonstrating the impact of varying alpha values on performance as epsilon increases.
-These highlights the advantages of our methodology over `LDPRSE` in online environments.
+The results presented in this repo compare our specific algorithms with the algorithm proposed in [Tao et al (2022)](https://proceedings.mlr.press/v151/tao22a.html), namely `LDPRSE`, which is proposed for the setting of LDP + heavy-tailed rewards in online MABs.
 
-- **Left Column (Alpha = 2%)**: As epsilon increases, _we observe that the performance curve not only aligns with our theoretical results but also surpasses **LDPRSE**_. This showcases the efficiency and effectiveness of our approach under lower alpha settings.
-- **Right Column (Alpha = 7%)**: Consistent with the observations made in the left column, when the privacy parameter (epsilon) remains constant, an increase in alpha leads to poorer performance. 
+Hence, our comparisons were made in the online MAB setting under weak corruption. The findings are organized into two columns, demonstrating the impact of varying alpha (corruption) values on performance as epsilon (privacy) increases.
+These results highlight the advantages of our algorithms over `LDPRSE` in the situations where there exist additional corruptions.
+
+- **Left Column (Alpha = 2%)**: As epsilon increases (i.e., weaker privacy protection), _we observe that the performance not only aligns with our theoretical results (e.g., the gap between LTC and CTL becomes smaller) but also consistently surpasses **LDPRSE**_. This showcases the effectiveness of our approach under low corruption settings.
+- **Right Column (Alpha = 7%)**: For this larger corruption setting, our algorithms continue to outperform `LDPRSE`, under different choices of $\epsilon$.
 
 <table>
   <tr>
