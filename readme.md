@@ -3,7 +3,7 @@ The results presented in this repo compare our specific algorithms with the algo
 Hence, our comparisons were made in the online MAB setting under weak corruption. The findings are organized into two columns, demonstrating the impact of varying alpha (corruption) values on performance as epsilon (privacy) increases.
 These results highlight the advantages of our algorithms over `LDPRSE` in the situations where there exist additional corruptions.
 
-- **Left Column (Alpha = 2%)**: As epsilon increases (i.e., weaker privacy protection), _we observe that the performance not only aligns with our theoretical results (e.g., the gap between LTC and CTL becomes smaller) but also consistently surpasses **LDPRSE**_. This showcases the effectiveness of our approach under low corruption settings.
+- **Left Column (Alpha = 2%)**: As epsilon increases (i.e., weaker privacy protection), _we observe that the performance not only aligns with our theoretical results (e.g., the gap between LTC and CTL becomes smaller) but also consistently surpasses `LDPRSE`. This showcases the effectiveness of our approach under low corruption settings.
 - **Right Column (Alpha = 7%)**: For this larger corruption setting, our algorithms continue to outperform `LDPRSE`, under different choices of $\epsilon$.
 
 <table>
