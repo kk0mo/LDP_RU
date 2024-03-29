@@ -1,4 +1,4 @@
-The results presented in this repo compare our specific algorithms with the algorithm proposed in [Tao et al (2022)](https://proceedings.mlr.press/v151/tao22a.html), namely `LDPRSE`, which is proposed for the setting of LDP + heavy-tailed rewards in online MABs.
+The results presented in this repo compare our specific algorithms with the algorithm proposed in Tao et al (2022), namely `LDPRSE`, which is proposed for the setting of LDP + heavy-tailed rewards in online MABs.
 
 Hence, our comparisons were made in the online MAB setting under weak corruption. The findings are organized into two columns, demonstrating the impact of varying alpha (corruption) values on performance as epsilon (privacy) increases.
 These results highlight the advantages of our algorithms over `LDPRSE` in the situations where there exist additional corruptions.
